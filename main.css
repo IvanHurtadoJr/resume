@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(to bottom right, #737373, #8c8c8c, #999999, #8c8c8c, #737373);
+  }
+  
+  h1 {
+    color: #B22222;
+    text-align: center;
+    line-height: 0.8;
+  }
+  
+  .Personal-Info {
+    font-family: helvetica;
+    text-align: center;
+    line-height: 0.2;
+    font-size: small;
+    margin-top: 0px;
+  }
+  
+  .Nav-Bar li {
+    padding: 15px 20px;
+    display: inline-block;  
+  }
+  
+  .Nav-Bar {
+      text-align: center;
+      line-height: 0.2;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: #8c8c8c;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 12px 8px 12px;
+    border-radius: 10px;
+      
+  }
+  
+  a:hover, a:active {
+    background: black;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+  }
+  
+  
+  .head {
+    position: fixed; width: 100%; top: 0; height: 70px; background-image: linear-gradient(to left, #737373, #8c8c8c, #999999, #8c8c8c, #737373);
+  }
+  
+  .push {
+    margin-bottom: 84px;
+  }
+  
+  .main {
+    padding: 0px 30px 0px 35px;
+  }
+  
+  .image {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-left: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .About {
+    text-align: justify;
+    text-justify: inter-word;
+  }
